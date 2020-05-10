@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	background-image: url('../assets/asteroids.jpg');
+  }
+  
+  .container {
+	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 68px;
+	width: 900px;
+	min-width: 900px;
+	height: 600px;
+	border: 8px dashed white;
+	z-index: 4;
+  }
+   
+  #wrapper {
+	width: 900px;
+	min-width: 900px;
+	margin: 0 auto;
+	padding-top: 15px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 60px;
+	z-index: 5;
+	transition: all 8s ease;
+  }
+  
